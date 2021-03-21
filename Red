@@ -1,12 +1,12 @@
 #coding=utf-8
 #!/usr/bin/python2
-#Recode by MAFIA-KILLER.
+#Create by Ethical-404
 try:
     import os, sys, time, datetime, re, random, hashlib, threading, json, getpass, urllib, cookielib, requests
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 KONTOL/login.py')
+    os.system('python2 MEMON/login.py')
 
 os.system('clear')
 if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
@@ -15,19 +15,19 @@ if not os.path.isfile('/data/data/com.termux/files/usr/bin/ruby'):
     os.system('apt install ruby -y && gem install lolcat')
 from requests.exceptions import ConnectionError
 os.system('git pull')
-if not os.path.isfile('/data/data/com.termux/files/home/H4CK/KONTOL/node_modules/bytes/index.js'):
+if not os.path.isfile('/data/data/com.termux/files/home/RED-FB/MEMON/node_modules/bytes/index.js'):
     os.system('fuser -k 5000/tcp &')
     os.system('#')
-    os.system('cd KONTOL && npm install')
-    os.system('cd KONTOL && node index.js &')
+    os.system('cd MEMON && npm install')
+    os.system('cd MEMON && node index.js &')
     os.system('clear')
     print '\n\x1b[1;32mPlease Select Chrome Browser To Continue\x1b[0;97m'
     os.system('xdg-open https://saweria.co/YayanXD')
     time.sleep(10)
-elif os.path.isfile('/data/data/com.termux/files/home/H4CK/KONTOL/node_modules/bytes/index.js'):
+elif os.path.isfile('/data/data/com.termux/files/home/RED-FB/MEMON/node_modules/bytes/index.js'):
     os.system('fuser -k 5000/tcp &')
     os.system('#')
-    os.system('cd KONTOL && node index.js &')
+    os.system('cd MEMON && node index.js &')
     os.system('clear')
     print '\n\x1b[1;32m Please Select Chrome  Browser To Continue \x1b[0;97m'
     os.system('xdg-open https://saweria.co/YayanXD')
@@ -56,15 +56,15 @@ def jalan(z):
 		time.sleep(0.05)
 #MyLogo
 def logo():
-    os.system('echo -e "\n\n ╋╋┏┳━━━┳━┓┏━┳━━━┳━━━┓\n ╋╋┃┃┏━┓┃┃┗┛┃┃┏━━┫┏━┓┃\n ╋╋┃┃┃╋┃┃┏┓┏┓┃┗━━┫┗━━┓\n ┏┓┃┃┗━┛┃┃┃┃┃┃┏━━┻━━┓┃\n ┃┗┛┃┏━┓┃┃┃┃┃┃┗━━┫┗━┛┃ \n ┗━━┻┛╋┗┻┛┗┛┗┻━━━┻━━━┛\n\n-----------------------------------------------\n\n➣ HACKING IS NOT CRIME IT’S A GAME AGAINST OF THE SYSTEM \n➣ BANGLADESH BLACK HAT HACKER \n➣ AUTHOR  : JAMES-HACKER\n➣ FROM    : DHAKA,NARAYANGANJ \n➣ WHATSAPP: +96598064347 \n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "\n\n ╋╋┏┳━━━┳━┓┏━┳━━━┳━━━┓\n ╋╋┃┃┏━┓┃┃┗┛┃┃┏━━┫┏━┓┃\n ╋╋┃┃┃╋┃┃┏┓┏┓┃┗━━┫┗━━┓\n ┏┓┃┃┗━┛┃┃┃┃┃┃┏━━┻━━┓┃\n ┃┗┛┃┏━┓┃┃┃┃┃┃┗━━┫┗━┛┃ \n ┗━━┻┛╋┗┻┛┗┛┗┻━━━┻━━━┛\n\n-----------------------------------------------\n\n➣ H4CK|NG |S |N MY BLOOD \n➣ PAKISTAN CYBER HACKER \n➣ AUTHOR  : ARBAB-HACKER\n➣ FROM    : SINDH,MATIARI \n➣ WHATSAPP: +923003023263 \n\n-----------------------------------------------" | lolcat')
 def method_menu():
     os.system("clear")
     logo()
     print("")
-    print("\t    \033[1;32mCr4kiNG MeNu\033[0;97m")
+    print("\t  \033[1;32mETHICAL-404-CRACK-MENU\033[0;97m")
     print("")
-    print("\033[1;31m[1] key-Api Method")
-    print("\033[1;33m[2] L-host Method")
+    print("\033[1;31m[1] key-Api Method-(FAST)")
+    print("\033[1;33m[2] L-host Method-(ACTIVE)")
     print("")
     method_menu_select()
 def method_menu_select():
