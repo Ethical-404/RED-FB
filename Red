@@ -56,7 +56,7 @@ def jalan(z):
 		time.sleep(0.05)
 #MyLogo
 def logo():
-    os.system('echo -e "\n\n ╋╋┏┳━━━┳━┓┏━┳━━━┳━━━┓\n ╋╋┃┃┏━┓┃┃┗┛┃┃┏━━┫┏━┓┃\n ╋╋┃┃┃╋┃┃┏┓┏┓┃┗━━┫┗━━┓\n ┏┓┃┃┗━┛┃┃┃┃┃┃┏━━┻━━┓┃\n ┃┗┛┃┏━┓┃┃┃┃┃┃┗━━┫┗━┛┃ \n ┗━━┻┛╋┗┻┛┗┛┗┻━━━┻━━━┛\n\n-----------------------------------------------\n\n➣ H4CK|NG |S |N MY BLOOD \n➣ PAKISTAN CYBER HACKER \n➣ AUTHOR  : ARBAB-HACKER\n➣ FROM    : SINDH,MATIARI \n➣ WHATSAPP: +923003023263 \n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "\n\n ╔═══╗─╔╗────╔╗────╔═╗╔═╦═╗─╔╗\n ║╔═╗║─║║────║║────║║╚╝║║║╚╗║║\n ║║─║╠═╣╚═╦══╣╚═╗──║╔╗╔╗║╔╗╚╝║\n ║╚═╝║╔╣╔╗║╔╗║╔╗╠══╣║║║║║║╚╗║║\n ║╔═╗║║║╚╝║╔╗║╚╝╠══╣║║║║║║─║║║ \n ╚╝─╚╩╝╚══╩╝╚╩══╝──╚╝╚╝╚╩╝─╚═╝\n\n-----------------------------------------------\n\n➣ H4CK|NG |S |N MY BLOOD \n➣ PAKISTAN CYBER HACKER \n➣ AUTHOR  : ARBAB-HACKER\n➣ FROM    : SINDH,MATIARI \n➣ WHATSAPP: +923003023263 \n\n-----------------------------------------------" | lolcat')
 def method_menu():
     os.system("clear")
     logo()
