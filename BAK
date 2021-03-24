@@ -3,13 +3,13 @@
 
 #coding=utf-8
 #!/usr/bin/python2
-#Originally Written By Muhammad Hamza
+#Originally Written By ETHICAL-404
 try:
     import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 index.xbn")
+    os.system("python2 BAK")
 os.system("clear")
 """
 try:
@@ -25,17 +25,17 @@ if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
     os.system("apt update && apt install nodejs -y")
 from requests.exceptions import ConnectionError
 os.system("git pull")
-if not os.path.isfile("/data/data/com.termux/files/home/hpro/...../node_modules/bytes/index.js"):
+if not os.path.isfile("/data/data/com.termux/files/home/RED-FB/MEMON/node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
     os.system("cd ..... && npm install")
     os.system("cd ..... && node index.js &")
     os.system("clear")
     time.sleep(10)
-elif os.path.isfile("/data/data/com.termux/files/home/hpro/...../node_modules/bytes/index.js"):
+elif os.path.isfile("/data/data/com.termux/files/home/RED-FB/MEMON/node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
-    os.system("cd ..... && node index.js &")
+    os.system("cd MEMON && node index.js &")
     os.system("clear")
 bd=random.randint(2e7, 3e7)
 sim=random.randint(2e4, 4e4)
