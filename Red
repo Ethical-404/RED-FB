@@ -76,7 +76,7 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "\n\n██████╗░███████╗██████╗░░░░░░░███████╗██████╗░\n██╔══██╗██╔════╝██╔══██╗░░░░░░██╔════╝██╔══██╗\n██████╔╝█████╗░░██║░░██║█████╗█████╗░░██████╦╝\n██╔══██╗██╔══╝░░██║░░██║╚════╝██╔══╝░░██╔══██╗\n██║░░██║███████╗██████╔╝░░░░░░██║░░░░░██████╦╝\n╚═╝░░╚═╝╚══════╝╚═════╝░░░░░░░╚═╝░░░░░╚═════╝░\n\n\-----------------------------------------------\n\n➣NAME         : ARBAB MEMON      \n➣FACEBOOK   : ARBAB-MEMON  \n➣WHATSAPP NO  : 03003023263 \n➣VERSION: DUAL METHOD  \n➣METHOD-1: KEY API METHOD  \n➣METHOD-2         : LOCAL-HOST-METHOD  \n➣WARNING      : DONT USE PROXY \n➣NOTE         :  CLEAR TERMUX DATA \n➣HOST TYPE         : MEMON \n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "\n\n██████╗░███████╗██████╗░░░░░░░███████╗██████╗░\n██╔══██╗██╔════╝██╔══██╗░░░░░░██╔════╝██╔══██╗\n██████╔╝█████╗░░██║░░██║█████╗█████╗░░██████╦╝\n██╔══██╗██╔══╝░░██║░░██║╚════╝██╔══╝░░██╔══██╗\n██║░░██║███████╗██████╔╝░░░░░░██║░░░░░██████╦╝\n╚═╝░░╚═╝╚══════╝╚═════╝░░░░░░░╚═╝░░░░░╚═════╝░\n\n\-----------------------------------------------\n\n➣NAME         : ARBAB MEMON      \n➣FACEBOOK    : ARBAB-MEMON  \n➣WHATSAPP NO  : 03003023263 \n➣VERSION:    DUAL METHOD  \n➣METHOD-1   : KEY API METHOD  \n➣METHOD-2      : LOCAL-HOST-METHOD  \n➣WARNING      : DONT USE PROXY \n➣NOTE         :  CLEAR TERMUX DATA \n➣HOST TYPE      : MEMON \n\n-----------------------------------------------" | lolcat')
 def method_menu():
 	
     
