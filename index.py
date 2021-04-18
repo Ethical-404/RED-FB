@@ -39,16 +39,16 @@ sim=random.randint(2e4, 4e4)
 header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
 reload(sys)
 sys.setdefaultencoding("utf-8")
-c = "\033[1;32m"
-c2 = "\033[0;97m"
-c3 = "\033[1;31m"
+c = "\033[1;92m"
+c2 = "\033[0;91m"
+c3 = "\033[1;93m"
 #MyLogo
 logo = """
 
 \t###### #####  #####  ###### #####
 \t#    # #   #  #    # #    # #    #
 \t#    # ####   #    # #    # #    # 
-\t###### # #    #####  ###### ######    
+\t###### # #    #####  ###### #####    
 \t#    # #   #  #    # #    # #    #        
 \t#    # #    # #####  #    # #####   
 \t-----------------------------------------------
